@@ -1,0 +1,38 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.user-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.user-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 10px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.user-btn:hover {
+    background-color: #16a085;
+}
